@@ -28,7 +28,8 @@ total.addEventListener("click", () => {
 });
 
 clearBtn.addEventListener("click", () => {
-  resultBox.innerHTML = "0";
+  resultBox.innerHTML = "";
+  totalizerBox.innerHTML = "";
 });
 
 deleteBtn.addEventListener("click", () => {
@@ -64,6 +65,6 @@ allBtns.forEach((button, i) => {
       } else {
         element.style.background = "#EAEDF2";
       }
-    }, 0400);
+    }, 0250);
   });
 });
